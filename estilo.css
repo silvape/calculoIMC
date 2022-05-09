@@ -78,7 +78,7 @@ button{
     background: #000;
     color: rgb(255,198,0);
     outline: none;
-    border-radius: 50%;
+    border-radius: 50px;
     cursor: pointer;
 }
   
