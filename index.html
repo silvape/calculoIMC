@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="container_01">
+
+          <div class="title"> Calculadora - IMC </div>
+
+          <div id="radio" class="radio">
+            <label>Sexo: </label>
+            <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op1" id="masculino"> Masculino
+            <INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op2" id="feminino"> Feminino
+          </div>
+
+          <div class="input">
+              <label>Nome:</label>
+              <input type="text" id='nome'>
+          </div>
+
+          <div class="input">
+              <label>Altura:</label>
+              <input type="number" id='altura'>
+          </div>
+
+          <div class="input">
+              <label>Peso:</label>
+              <input type="number" id='peso'>
+          </div>
+
+          <button id='calcular'>Calcular</button>
+          <button id='salva'>salvar</button>
+  
+          
+        </div>
+        <div class=" container_02">
+            <div class="result" id='resultado'><h1>Calculo IMc</h1></div>
+            <div class="result" id="salvos"></div>
+        </div>
+      </main>
+      <script src="./imc.js"></script>
+</body>
+</html>
