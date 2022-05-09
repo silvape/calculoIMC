@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    background-image: url(img/fundo.jpg);
+    background-repeat: no-repeat;
+    
+    background-position: center center;
+    
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;    
+    align-items: flex-start;
+    height: 85vh;
+    width: 98vw;
+    border-radius: 1px;
+    margin-top: 19px;
+}
+
+.bloco_01{
+   
+    display: flex;
+    background-color: rgb(255, 30, 0);
+    height: 10vh;
+    width: 40vw;
+    border-radius: 5%;
+    align-items: center;
+    color: rgb(250, 242, 242);
+    font-weight: bold;
+    font-size: 4rem;
+    justify-content: center;
+    opacity: 90%;
+    margin-left: 500px;
+    border-radius: 50%;
+}
+.bloco_02{
+    flex-direction: column;
+    display: flex;
+    background-color: blue;
+    height: 80vh;
+    width: 40vw;
+    border-radius: 5%;
+    align-items: center;
+    justify-content: space-evenly;
+    opacity: 70%;
+
+
+}
+.bloco_03{
+    display: flex;
+    background-color: blue;
+    height: 80vh;
+    width: 40vw;
+    border-radius: 5%;
+    align-items: center;
+    justify-content: center;
+    opacity: 70%;
+}
+
+.coluna_01{
+    display: flex;
+    align-content: space-around;
+    height: 36vh;
+    width: 38vw;
+    border-radius: 5%;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    
+
+}
+.coluna_02{
+    display: flex;
+    background-color: aliceblue;
+    border: 2px solid black;
+    height: 36vh;
+    width: 38vw;
+    border-radius: 5%;
+    
+
+}
+
+
+label, input{
+    display: block;
+    width: 60%;
+    text-align: left;
+}
+
+
+label{
+    font-weight: bold;
+    
+}
+
+input{
+    display: flex;
+    border-bottom: 1px solid #323232;
+    padding: 5px;
+    font-size: 1rem;
+    margin-bottom: 2px;
+    outline: 0;
+}
+
+input[type="radio"]{
+    display: inline;
+    width: 10px;
+      
+}
+
+.comando_bloco_02{
+    width: 400px;
+    margin-top: 15px;
+    display: flex;
+    opacity: none;
+    justify-content: space-around ;
+    
+
+}
+
+
+button{
+    width: 150px;
+    height: 40px;
+    font: bold 1.3rem serif;
+    background: rgb(51, 7, 243);
+    color: rgb(250, 248, 243);
+    border-radius: 50px;
+    cursor: pointer;
+    
+    
+
+}
+.result{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    width: 38vw;
+    height: 38vh;
+    border-radius: 5%;
+    font: italic 1.5rem serif;
+    box-shadow: 0px 0px 10px rgb(243, 241, 241);
+    background: rgb(243, 239, 239);
+    color: rgb(7, 5, 0);
+    padding: 20px;
+    box-sizing: border-box;
+    user-select: none;
+
+    
+}
